@@ -5,6 +5,7 @@
     position: relative;
     right: 0px;
     top: -36px;
+    height: 110px;
     border-bottom: 2px;
     border-right: 0;
     border-left: 0;
@@ -19,18 +20,21 @@ body {
 
 
 .nav {
+    font-family: 'Merriweather', serif;
     padding: 0;
     margin: 0;
 }
 
 h1 {
+    font-family: 'Merriweather', serif;
     position: relative;
-    bottom: -40px;
+    bottom: -46px;
     width: 345px;
     left: 22%;
     padding: 0;
     margin: 0;
     font-size: 35px;
+    text-decoration: underline;
 }
 
 .nav-item {
@@ -43,13 +47,14 @@ h1 {
 }
 
 .container {
-    background-color: lightgray;
-    margin-top: 4%;
+    font-family: 'Merriweather', serif;
+    background-color: darkgray;
+    margin-top: 8%;
     width: 960px;
     height: auto;
     position: relative;
     right:-3%;
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px;
 }
 
@@ -61,6 +66,7 @@ h1 {
 }
 
 footer {
+    font-family: 'Merriweather', serif;
     position: fixed;
     background-color: lightgray;
     font-size: 20px;
@@ -70,3 +76,141 @@ footer {
     height: 50px;
     bottom: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+.email {
+    font-family: 'Merriweather', serif;
+    background-color: darkgray;
+    margin-top: 8%;
+    width: 960px;
+    height: auto;
+    position: relative;
+    top: -100px;
+    right:-20%;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.photos {
+    background-color: darkgray;
+    margin-top: 8%;
+    width: 997px;
+    height: auto;
+    position: relative;
+    top: -100px;
+    right:-20%;
+    font-size: 24px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.photos img {
+    position: relative;
+    left: 50%;
+    display: inline-flex;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+
+
+.image1 {
+    float: left;
+
+}
+
+.image2 {
+    float: left;
+    
+}
+
+.image3 {
+    float: left;
+    
+}
+
+.image4 {
+    float: left;
+}
+
+.words1 {
+    position: relative;
+    bottom: 68px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    width: 201px;
+    left: 58%;
+}
+
+.words2 {
+    position: relative;
+    bottom: 68px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    width: 201px;
+    left: 58%;
+}
+
+.words3 {
+    position: relative;
+    bottom: 68px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    width: 201px;
+    left: 58%;
+}
+
+.words4 {
+    position: relative;
+    bottom: 68px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    width: 201px;
+    left: 58%;
+}
+
+.words5 {
+    position: relative;
+    bottom: 68px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    width: 201px;
+    left: 58%;
+}
+
+.words6 {
+    position: relative;
+    bottom: 68px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    width: 201px;
+    left: 58%;
+}
+
+.photos a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
